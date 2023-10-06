@@ -8,7 +8,9 @@ let measure = 'km';
             console.log(amount * 60 + 'min');
             break;
         case 'km':
-            console.log(amount * 1000 + 'm')
+            console.log(amount * 1000 + 'm');
             break;
+        default:
+            console.log('invalid measure');
     }
 
